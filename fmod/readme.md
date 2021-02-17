@@ -5,7 +5,7 @@ by Matt726
 
 Available for: Default Laminar Research or mSparks 747 mod
 
-Version: v0.9.1b
+Version: v0.9.3b
 
 Email: mfahrenheit135@gmail.com
 
@@ -26,14 +26,30 @@ Email: mfahrenheit135@gmail.com
 ---
 ## CHANGELOG:
 
-###v0.9.1b:
+### v0.9.4b:
+
+- fixed wind glitch
+- added efis knobs switch
+- updated efis buttons
+- added fuel control switch sounds
+- added engine start switch sounds
+
+### v0.9.3b:
+
+-updated flap lever sounds
+
+### v0.9.2b:
+
+- adjusted interior volumes
+
+### v0.9.1b:
 
 - BIG: UPDATED ENGINES
 - adjusted doppler (still WIP)
 - louder warnings
 - adjusted gear wind
 
-###v0.9b:
+### v0.9b:
 
 - fixed engine 3 not sounding issue
 - better irs knobs
@@ -45,7 +61,7 @@ Email: mfahrenheit135@gmail.com
 - updated buttons
 - updated master caution
 
-###v0.8.4b:
+### v0.8.4b:
 
 - adjusted batteries
 - better contactors
@@ -53,27 +69,27 @@ Email: mfahrenheit135@gmail.com
 - added MAWEA test
 - added back of cockpit avionics
 
-###v0.8.3b:
+### v0.8.3b:
 
 - adjusted engines
 - updated warnings
 
-###v0.8.2b:
+### v0.8.2b:
 
 - adjusted engines
 
-###v0.8.1b:
+### v0.8.1b:
 
 - fixing volume
 
-###v0.8b:
+### v0.8b:
 
 - added doppler (flyby) effect
 - added mcp turn sounds
 - added some pedestal sounds
 - improved flap sounds
 
-###v0.7b:
+### v0.7b:
 
 - improved ground roll
 - added rudder trim
@@ -82,7 +98,7 @@ Email: mfahrenheit135@gmail.com
 - added better gear lever
 - added flap sounds
 
-###v0.6.1b:
+### v0.6.1b:
 
 - improved engine start effects
 - edited engine parameters
