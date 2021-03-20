@@ -1,5 +1,6 @@
 --Read out and set displays for ND icons
 -- (C) Mark 'mSparks' Parker 2020 CCBYNC4 release
+-- Small changes by Matt726
 
 simDR_tcas_lat                = find_dataref("sim/cockpit2/tcas/targets/position/lat")
 simDR_tcas_lon                = find_dataref("sim/cockpit2/tcas/targets/position/lon")
@@ -116,6 +117,8 @@ end
 function makeIcon(iconTextData,navtype,text,latitude,longitude,distance)
   if text~=nil and text~="LATLON" and iconTextData==iconTextDataCapt and usedNaviadsTableCapt[text]~=nil then return end
   if text~=nil and text~="LATLON" and iconTextData==iconTextDataFO and usedNaviadsTableFO[text]~=nil then return end
+  if text=="LATLON" then text=" " end
+  
   local abs_heading=getHeading(simDR_latitude,simDR_longitude,latitude,longitude)
   local heading_diff=0
   if simDR_map_mode==2 then
@@ -157,8 +160,8 @@ function makeIcon(iconTextData,navtype,text,latitude,longitude,distance)
   
   if navtype==1 and apt>0 then --airport
     iconTextData.icons[lastNavaid]=2
-    iconTextData[lastNavaid].whitetext=text
-    iconTextData[lastNavaid].bluetext=" "
+    iconTextData[lastNavaid].bluetext=text
+    iconTextData[lastNavaid].whitetext=" "
     iconTextData[lastNavaid].redtext=" "
     iconTextData[lastNavaid].greentext=" "
   elseif navtype==3 then --current FMS waypoint

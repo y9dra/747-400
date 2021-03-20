@@ -1,15 +1,13 @@
 # Boeing 747-400 FMOD Soundpack
 by Matt726
 
-## WARNING: This soundpack is a WORK IN PROGRESS BETA. Be prepared to find missing or unfinished features.
-
 Available for: Default Laminar Research or mSparks 747 mod
 
-Version: v0.9.8b
+Version: v1.6.1
 
 Email: mfahrenheit135@gmail.com
 
-[YouTube](https://www.youtube.com/channel/UC6SJ3NetEv9x4p0vCE9Nwug)
+[YouTube](https://youtube.com/c/Matt726)
 
 [Discord](https://discord.gg/W4Uym2S)
 
@@ -21,10 +19,67 @@ Email: mfahrenheit135@gmail.com
 
 2: Drag and drop "fmod" and "sound" folders into default (Boeing 747-400) or mSparks (747-400-master/Sparky 744) 747 main folder
 
-3: enjoy your flight!
+3: OPTIONAL: If you want to add GE engines to your aircraft, open the GE folder in fmod, then drag "747-400.snd" into the fmod folder. Replace as neccessary.
+
+4: OPTIONAL: If you are flying cargo, go to fmod/Announcement Removal, and drag and drop “cabin.bank” into the main fmod folder in your aircraft. This will remove cabin announcements and music.
+
+5: enjoy your flight!
 
 ---
 ## CHANGELOG:
+
+### v1.6.1:
+
+- added option to remove cabin announcements
+
+### v1.6:
+
+- new warnings
+- updated pan
+- updated park brake
+
+### v1.5.1:
+
+- fixed CTD issue
+
+### v1.5:
+
+- better wind sounds
+- fixed GPWS
+
+### v1.4:
+
+- updated GE engines
+- updated master caution
+- updated master warning
+- updated GPWS
+
+### v1.3.1:
+
+- spoiler edit by crazytimtimtim
+### v1.3:
+
+- added cabin announcement sounds
+- added cabin boarding music
+- updated GE engines
+- added extra cabin sounds
+
+### v1.2:
+
+- aded GE engine sounds
+
+### v1.1:
+
+- added cover switch sounds
+- fixed sink rate sound
+- fix for auto spoiler
+- 
+### v1.0:
+
+- updated engines
+- updated buttons
+- fixed apu
+- added parking brake
 
 ### v0.9.8b:
 
